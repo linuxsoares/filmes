@@ -1,3 +1,1 @@
-web: target/universal/stage/bin/filmes
--Dhttp.port=$PORT
--Dconfig.resource=heroku.conf
+web: target/universal/stage/bin/filmes -Dhttp.port=$PORT -Dconfig.resource=heroku.conf
