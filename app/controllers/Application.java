@@ -12,7 +12,6 @@ public class Application extends Controller {
     
     public static Result sobre(){
     	return ok(views.html.sobre.render("", play.core.PlayVersion.current()));
-    	
     }
     
 }
